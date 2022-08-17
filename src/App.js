@@ -47,7 +47,7 @@ function App() {
             </NavItem>
           </Nav>
         </li>
-        <li>
+        <li className="me-2">
           <Nav>
             <NavItem>
               <NavLink disabled href="#">
@@ -72,6 +72,12 @@ function App() {
           </Nav>
         </li>
       </ul>
+      <div className="slogan">
+        <h2>Find it. Tour It. Own it.</h2>
+      </div>
+      </div>
+      <div className="house-options">
+        <p>Buy a home. Finance a home. Rent a home.</p>
       </div>
     </div>
   );

@@ -17,3 +17,19 @@
   list-style: none;
   background-color: white;
 }
+
+.me-2 {
+  white-space: nowrap;
+  margin-top: 9px;
+}
+
+.slogan h2 {
+  color: white;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.house-options {
+  background-color: rgba(255, 255, 252, 0.821);
+  height: 752px;
+}
