@@ -2,13 +2,18 @@
   text-align: center;
 }
 
+.header {
+  background-image: url("./Assets/smallhouse.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 488px;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-}
-
-li .nav-item {
-  flex-wrap: nowrap;
-  color: red;
+  background-color: white;
 }
