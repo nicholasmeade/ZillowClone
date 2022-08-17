@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li .nav-item {
+  flex-wrap: nowrap;
+  color: red;
+}
