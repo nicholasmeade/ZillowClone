@@ -75,6 +75,43 @@
   padding-top: 120px;
 }
 
+/* bottom section styling */
+
+.bottom-tabs-container {
+  padding-top: 30px;
+  height: 202px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.bottom-tabs-nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.solid-bottom {
+  border-top: 1px solid rgb(46, 46, 46);
+  margin: auto;
+}
+
+.misc-link-container {
+  height: 150px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.misc-link-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  list-style: none;
+}
+
+.misc-details-container {
+  height: 450px;
+}
+
 /* footer styling */
 
 .footer-logo {

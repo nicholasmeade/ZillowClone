@@ -243,6 +243,72 @@ function App() {
               </Card>
             </div>
       </div>
+      <div className="bottom-tabs-container">
+          <h3>You have a right to fair housing.</h3>
+          <a href="https://dos.ny.gov/system/files/documents/2021/08/fairhousingnotice.pdf">Learn about New York Housing Protections</a>
+          <div className="bottom-tabs-nav">
+            <Nav
+                  justified
+                >
+                  <NavItem>
+                    <NavLink
+                      active
+                      href="#"
+                    >
+                      Real Estate
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#">
+                      Rentals
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      active
+                      href="#"
+                    >
+                      Mortage Rates
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      active
+                      href="#"
+                    >
+                      Browse Homes
+                    </NavLink>
+                  </NavItem>
+                </Nav>
+          </div>
+          <hr className="solid-bottom"></hr>
+      </div>
+      <nav className="misc-link-container">
+        <ul className="misc-link-flex">
+          <li>About</li>
+          <li>Zestimates</li>
+          <li>Research</li>
+          <li>Careers</li>
+          <li>Help</li>
+          <li>Advertise</li>
+          <li>Fair Housing Guide</li>
+          <li>Terms of use</li>
+          <li>Privacy Portal</li>
+          <li>Cookie Preference</li>
+          <li>Blog</li>
+          <li>AI</li>
+          <li>Mobile Apps</li>
+          <li>Trulia</li>
+          <li>StreetEasy</li>
+          <li>HotPads</li>
+          <li>Out East</li>
+          <li>ShowingTime</li>
+        </ul>
+        <a href="https://privacy.zillowgroup.com/cookie">Do Not Sell My Personal Information</a>
+      </nav>
+      <div className="misc-details-container">
+
+      </div>
       <div className="footer-logo">
           <img src={footerlogo} alt="Footer Logo" />
       </div>
