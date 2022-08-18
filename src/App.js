@@ -1,8 +1,12 @@
 import "./App.css";
 import React from "react";
-import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
+import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
 import logo from "./Assets/logo.png";
 import house from "./Assets/house.jpg";
+import buyhome from "./Assets/buyhome.webp";
+import financehome from "./Assets/financehome.webp";
+import renthome from "./Assets/renthome.webp";
+import footerlogo from "./Assets/footer-logo.svg";
 
 function App() {
   return (
@@ -147,11 +151,100 @@ function App() {
                 </CardText>
               </CardBody>
               </Card>
+              <Card
+                    color="light"
+                    style={{
+                    width: '18rem',
+                    }}>
+                  <img
+                  alt="Sample"
+                  src="https://picsum.photos/300/200"/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  $3,000,000
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6">
+                  5bds | 5ba | 4,000 sqft
+                </CardSubtitle>
+                <CardText>
+                  Miami, FL
+                </CardText>
+              </CardBody>
+              </Card>
             </div>
           </div>
       </div>
-      <div className="house-options">
-        <p>Buy a home. Finance a home. Rent a home.</p>
+      <div className="buy-finance-rent-container">
+            <div className="buy-finance-rent-cards">
+                <Card
+                    color="light"
+                    style={{
+                    width: '26rem',
+                    height: '30rem'
+                    }}>
+                  <img
+                  alt="Sample"
+                  src={buyhome}/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  Buy a home
+                </CardTitle>
+                <CardText>
+                  Zillow makes it easy to browse homes. When you're ready, you can also connect with a local agent, explore financing solutions, schedule home tours, and more.
+                </CardText>
+                <Button>
+                  Search homes
+                </Button>
+              </CardBody>
+              </Card>
+              <Card
+                    color="light"
+                    style={{
+                    width: '26rem',
+                    height: '30rem'
+                    }}>
+                  <img
+                  alt="Sample"
+                  src={financehome}/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  Finance a home
+                </CardTitle>
+                <CardText>
+                  Zillow makes it easy to take steps to find the right loan, so you can get the home you want.
+                </CardText>
+                <Button>
+                  Start now
+                </Button>
+              </CardBody>
+              </Card>
+              <Card
+                    color="light"
+                    style={{
+                    width: '26rem',
+                    height: '30rem'
+                    }}>
+                  <img
+                  alt="Sample"
+                  src={renthome}/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  Rent a home
+                </CardTitle>
+                <CardText>
+                  We're creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.
+                </CardText>
+                <Button>
+                  Find rentals
+                </Button>
+              </CardBody>
+              </Card>
+            </div>
+      </div>
+      <div className="footer-logo">
+          <img src={footerlogo} alt="Footer Logo" />
       </div>
     </div>
   );

@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* header styling */
+
 .header {
   background-image: url("./Assets/smallhouse.jpeg");
   background-size: cover;
@@ -28,6 +30,8 @@
   margin-top: 50px;
   font-size: 50px;
 }
+
+/* home for you styling */
 
 .homes-for-you-container {
   height: 480px;
@@ -57,7 +61,23 @@
   gap: 25px;
 }
 
-.house-options {
+/* buy, finance, rent card styling */
+
+.buy-finance-rent-container {
   background-color: rgba(242, 242, 241, 0.821);
   height: 752px;
+}
+
+.buy-finance-rent-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 120px;
+}
+
+/* footer styling */
+
+.footer-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
