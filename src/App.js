@@ -245,7 +245,7 @@ function App() {
       </div>
       <div className="bottom-tabs-container">
           <h3>You have a right to fair housing.</h3>
-          <a href="https://dos.ny.gov/system/files/documents/2021/08/fairhousingnotice.pdf">Learn about New York Housing Protections</a>
+          <a href="https://dos.ny.gov/system/files/documents/2021/08/fairhousingnotice.pdf" target="blank">Learn about New York Housing Protections</a>
           <div className="bottom-tabs-nav">
             <Nav
                   justified
@@ -304,10 +304,12 @@ function App() {
           <li>Out East</li>
           <li>ShowingTime</li>
         </ul>
-        <a href="https://privacy.zillowgroup.com/cookie">Do Not Sell My Personal Information</a>
+        <a href="https://privacy.zillowgroup.com/cookie" target="blank">Do Not Sell My Personal Information</a>
+        <hr className="solid-bottom-misc"></hr>
       </nav>
       <div className="misc-details-container">
-
+        <h3>This clone of Zillow's website was made by Nicholas Meade, a Full Stack Software Engineer.</h3>
+        <h4>You can view Zillow's official website <a href="https://www.zillow.com/" target="blank">here</a>.</h4>
       </div>
       <div className="footer-logo">
           <img src={footerlogo} alt="Footer Logo" />
