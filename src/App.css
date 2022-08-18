@@ -29,7 +29,35 @@
   font-size: 50px;
 }
 
+.homes-for-you-container {
+  height: 480px;
+}
+
+.homes-card-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.homes-card-container h3 {
+  margin-right: 1200px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+.solid {
+  border-top: 1px solid rgb(46, 46, 46);
+  margin: auto;
+}
+
+.house-cards {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  gap: 25px;
+}
+
 .house-options {
-  background-color: rgba(255, 255, 252, 0.821);
+  background-color: rgba(242, 242, 241, 0.821);
   height: 752px;
 }

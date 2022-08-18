@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Nav, NavItem, NavLink } from "reactstrap";
+import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import logo from "./Assets/logo.png";
 import house from "./Assets/house.jpg";
 
@@ -17,12 +17,12 @@ function App() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink disabled href="#">
+              <NavLink active href="#">
                 Rent
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink disabled href="#">
+              <NavLink active href="#">
                 Sell
               </NavLink>
             </NavItem>
@@ -75,6 +75,80 @@ function App() {
       <div className="slogan">
         <h2>Find it. Tour It. Own it.</h2>
       </div>
+      </div>
+      <div className="homes-for-you-container">
+          <div className="homes-card-container">
+            <h3>Homes For You</h3>
+            <hr class="solid"></hr>
+            <div className="house-cards">
+                <Card
+                    color="light"
+                    style={{
+                    width: '18rem',
+                    }}>
+                  <img
+                  alt="Sample"
+                  src="https://picsum.photos/300/200"/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  $1,000,000
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6">
+                  4bds | 5ba | 5,000 sqft
+                </CardSubtitle>
+                <CardText>
+                  Long Island, NY
+                </CardText>
+              </CardBody>
+              </Card>
+              <Card
+                    color="light"
+                    style={{
+                    width: '18rem',
+                    }}>
+                  <img
+                  alt="Sample"
+                  src="https://picsum.photos/300/200"/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  $2,000,000
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6">
+                  3bds | 4ba | 4,000 sqft
+                </CardSubtitle>
+                <CardText>
+                  Los Angeles, California
+                </CardText>
+              </CardBody>
+              </Card>
+              <Card
+                    color="light"
+                    style={{
+                    width: '18rem',
+                    }}>
+                  <img
+                  alt="Sample"
+                  src="https://picsum.photos/300/200"/>
+              <CardBody>
+                <CardTitle tag="h5">
+                  $5,000,000
+                </CardTitle>
+                <CardSubtitle
+                  className="mb-2 text-muted"
+                  tag="h6">
+                  3bds | 3ba | 3,000 sqft
+                </CardSubtitle>
+                <CardText>
+                  New York City, NY
+                </CardText>
+              </CardBody>
+              </Card>
+            </div>
+          </div>
       </div>
       <div className="house-options">
         <p>Buy a home. Finance a home. Rent a home.</p>
