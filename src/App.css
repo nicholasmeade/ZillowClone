@@ -31,6 +31,12 @@
   font-size: 50px;
 }
 
+.homepage-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .searchbar {
   background-color: rgb(255, 255, 255);
   height: 50px;
@@ -43,6 +49,19 @@ input::placeholder {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -40px;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
 
 /* home for you styling */

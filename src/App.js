@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
 import logo from "./Assets/logo.png";
-import house from "./Assets/house.jpg";
+import searchicon from "./Assets/searchicon.png";
 import buyhome from "./Assets/buyhome.webp";
 import financehome from "./Assets/financehome.webp";
 import renthome from "./Assets/renthome.webp";
@@ -79,9 +79,11 @@ function App() {
       <div className="slogan">
         <h2>Find it. Tour It. Own it.</h2>
       </div>
-      <form>
+      <form className="homepage-form">
         <input className="searchbar" type="text" placeholder="Enter an address, neighborhood, city, or ZIP code"></input>
-        <input type="submit"></input>
+        <button type="submit" className="search-button">
+          <img src={searchicon} alt="Search Icon" />
+        </button>
       </form>
       </div>
       <div className="homes-for-you-container">
