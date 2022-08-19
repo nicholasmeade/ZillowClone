@@ -92,6 +92,16 @@ input::placeholder {
   padding-top: 20px;
   justify-content: center;
   gap: 25px;
+  cursor: pointer;
+}
+
+.homecard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s ease;
+}
+
+.homecard:hover {
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* buy, finance, rent card styling */
@@ -106,6 +116,16 @@ input::placeholder {
   justify-content: center;
   gap: 25px;
   padding-top: 120px;
+}
+
+.indiv-buy-rent-finance {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.indiv-buy-rent-finance:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* bottom section styling */

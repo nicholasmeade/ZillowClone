@@ -93,6 +93,7 @@ function App() {
             <div className="house-cards">
                 <Card
                     color="light"
+                    className="homecard"
                     style={{
                     width: '18rem',
                     }}>
@@ -115,6 +116,7 @@ function App() {
               </Card>
               <Card
                     color="light"
+                    className="homecard"
                     style={{
                     width: '18rem',
                     }}>
@@ -137,6 +139,7 @@ function App() {
               </Card>
               <Card
                     color="light"
+                    className="homecard"
                     style={{
                     width: '18rem',
                     }}>
@@ -159,6 +162,7 @@ function App() {
               </Card>
               <Card
                     color="light"
+                    className="homecard"
                     style={{
                     width: '18rem',
                     }}>
@@ -186,6 +190,7 @@ function App() {
             <div className="buy-finance-rent-cards">
                 <Card
                     color="light"
+                    className="indiv-buy-rent-finance"
                     style={{
                     width: '26rem',
                     height: '30rem'
@@ -200,13 +205,14 @@ function App() {
                 <CardText>
                   Zillow makes it easy to browse homes. When you're ready, you can also connect with a local agent, explore financing solutions, schedule home tours, and more.
                 </CardText>
-                <Button>
+                <Button className="indiv-buy-rent-finance-button">
                   Search homes
                 </Button>
               </CardBody>
               </Card>
               <Card
                     color="light"
+                    className="indiv-buy-rent-finance"
                     style={{
                     width: '26rem',
                     height: '30rem'
@@ -221,13 +227,14 @@ function App() {
                 <CardText>
                   Zillow makes it easy to take steps to find the right loan, so you can get the home you want.
                 </CardText>
-                <Button>
+                <Button className="indiv-buy-rent-finance-button">
                   Start now
                 </Button>
               </CardBody>
               </Card>
               <Card
                     color="light"
+                    className="indiv-buy-rent-finance"
                     style={{
                     width: '26rem',
                     height: '30rem'
@@ -242,7 +249,7 @@ function App() {
                 <CardText>
                   We're creating a seamless online experience - from shopping on the largest rental network, to applying, to paying rent.
                 </CardText>
-                <Button>
+                <Button className="indiv-buy-rent-finance-button">
                   Find rentals
                 </Button>
               </CardBody>
