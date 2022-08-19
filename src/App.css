@@ -31,6 +31,20 @@
   font-size: 50px;
 }
 
+.searchbar {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 700px;
+  border-radius: .5rem;
+}
+
+input::placeholder {
+  color: grey;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /* home for you styling */
 
 .homes-for-you-container {

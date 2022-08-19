@@ -79,6 +79,10 @@ function App() {
       <div className="slogan">
         <h2>Find it. Tour It. Own it.</h2>
       </div>
+      <form>
+        <input className="searchbar" type="text" placeholder="Enter an address, neighborhood, city, or ZIP code"></input>
+        <input type="submit"></input>
+      </form>
       </div>
       <div className="homes-for-you-container">
           <div className="homes-card-container">
