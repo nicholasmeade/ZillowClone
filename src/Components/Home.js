@@ -16,7 +16,7 @@ const Home = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink exact href="/homes">
+                <NavLink active href="/homes">
                     Buy
                 </NavLink>
                 </NavItem>
@@ -45,7 +45,7 @@ const Home = () => {
             <li>
             <Nav>
                 <NavItem>
-                <NavLink className="zillowlogo" href="#">
+                <NavLink className="zillowlogo" href="/">
                     <img src={logo} alt="Zillow Icon" width="180px" />
                 </NavLink>
                 </NavItem>
