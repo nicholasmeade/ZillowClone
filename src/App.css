@@ -39,14 +39,20 @@
 
 .searchbar {
   background-color: rgb(255, 255, 255);
-  height: 50px;
+  height: 65px;
   width: 700px;
   border-radius: .5rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  border-color: rgba(50, 152, 255, 0);
+}
+
+.searchbar:hover {
+  border-color: rgb(50, 152, 255);
 }
 
 input::placeholder {
   color: grey;
-  padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -63,6 +69,10 @@ input::placeholder {
   height: 20px;
   object-fit: cover;
 }
+
+input[type=text]{
+  text-indent:15px;
+} 
 
 /* home for you styling */
 
@@ -96,12 +106,12 @@ input::placeholder {
 }
 
 .homecard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.3s ease;
 }
 
 .homecard:hover {
-  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* buy, finance, rent card styling */
@@ -121,6 +131,11 @@ input::placeholder {
 .indiv-buy-rent-finance {
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+.indiv-buy-rent-finance:hover +
+.indiv-buy-rent-finance-button:hover {
+  background-color: blue;
 }
 
 .indiv-buy-rent-finance:hover {
