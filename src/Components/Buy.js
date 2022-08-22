@@ -3,6 +3,7 @@ import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardTex
 import logo from "../Assets/logo.png";
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import ListingSearch from "./ListingSearch";
 
 const Buy = () => {
     const { isLoaded } = useLoadScript({
@@ -84,14 +85,12 @@ const Buy = () => {
             </Nav>
             </li>
         </ul>
-        <div>
-            <p>Here is the Buying Homes page.</p>  
-        </div>
-        <div>
+        <ListingSearch />
+        <div className="map-search-container">
         <GoogleMap zoom={9} center={{lat: 41, lng: -74}} mapContainerClassName="map-container" ></GoogleMap>
         </div>
         </div>
      );
 }
- 
+
 export default Buy;

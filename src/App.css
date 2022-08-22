@@ -194,6 +194,25 @@ input[type=text]{
   padding-bottom: 5px;
 }
 
+/* buy/rent styling */
+
+/* buy/rent search nav bar styling */
+
+.listing-search-container {
+  display: flex;
+  justify-items: flex-start;
+  margin-top: -10px;
+}
+
+.listing-search-container li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.map-search-container {
+  margin-top: -16px;
+}
+
 /* map styling */
 
 .map-container {

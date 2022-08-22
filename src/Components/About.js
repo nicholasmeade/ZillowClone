@@ -74,9 +74,26 @@ const About = () => {
             </Nav>
             </li>
         </ul>
-            <p>Here's the About Page.</p>
+        <div className="about-container">
+            <div className="creator-details">
+                <h2>This clone of Zillow's website was made by Nicholas Meade, a Full Stack Software Engineer.</h2>
+                <h4>You can view Zillow's official website <a href="https://www.zillow.com/" target="blank">here</a>.</h4>
+            </div>
+            <div className="clone-creation">
+                <h3>This clone of Zillow's website was created using...</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Reactstrap</li>
+                    <li>DataFiniti Property Data API</li>
+                    <li>Google Maps API</li>
+                </ul>
+            </div>
+            <div className="about-footer">
+                <h4>You can find me on Github and connect with me on LinkedIn.</h4>
+            </div>
+        </div>
         </div>
      );
 }
- 
+
 export default About;
