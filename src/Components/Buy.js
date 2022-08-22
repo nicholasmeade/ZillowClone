@@ -1,8 +1,18 @@
 import React from "react";
 import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
 import logo from "../Assets/logo.png";
+import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
 const Buy = () => {
+    const { isLoaded } = useLoadScript({
+        googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    })
+
+    if (!isLoaded) {
+        return <div>Loading...</div>
+    }
+
     return ( 
         <div>
             <ul className="nav-container">
@@ -74,7 +84,12 @@ const Buy = () => {
             </Nav>
             </li>
         </ul>
-            <p>Here is the Buying Homes page.</p>
+        <div>
+            <p>Here is the Buying Homes page.</p>  
+        </div>
+        <div>
+        <GoogleMap zoom={9} center={{lat: 41, lng: -74}} mapContainerClassName="map-container" ></GoogleMap>
+        </div>
         </div>
      );
 }

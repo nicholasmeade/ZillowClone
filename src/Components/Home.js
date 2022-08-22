@@ -74,7 +74,7 @@ const Home = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink exact href="/about">
+                <NavLink href="/about">
                     About
                 </NavLink>
                 </NavItem>
