@@ -327,7 +327,7 @@ const Home = () => {
       </nav>
       <div className="misc-details-container">
         <h3>This clone of Zillow's website was made by Nicholas Meade, a Full Stack Software Engineer.</h3>
-        <h4>You can view Zillow's official website <a href="https://www.zillow.com/" target="blank">here</a>.</h4>
+        <h4>I do not work for, or are affiliated with Zillow. You can view Zillow's official website <a href="https://www.zillow.com/" target="blank">here</a>.</h4>
       </div>
       <div className="footer-logo">
           <img src={footerlogo} alt="Footer Logo" />

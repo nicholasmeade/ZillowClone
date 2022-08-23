@@ -74,7 +74,7 @@ const Rent = () => {
             </Nav>
             </li>
         </ul>
-            <p>Here's the Rent Page.</p>
+            <h2>Here's the Rent page - coming soon.</h2>
         </div>
      );
 }

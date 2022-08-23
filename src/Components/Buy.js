@@ -14,6 +14,44 @@ const Buy = () => {
         return <div>Loading...</div>
     }
 
+    // // API parameters - test
+
+    // var API_token = process.env.REACT_APP_DATAFINITI_API_KEY
+    // var format = 'JSON'
+    // var query = 'country:US'
+    // var num_records = 1
+    // var download = false
+
+    // var request_options = {
+    //     url: 'https://api.datafiniti.co/v4/properties/search',
+    //     method: 'POST',
+    //     json: {
+    //         'query': query,
+    //         'format': format,
+    //         'num_records': num_records,
+    //         'download': download
+    //     },
+    //     headers: {
+    //         'Authorization': 'Bearer ' + API_token,
+    //         'Content-Type': 'application/json'
+    //     } 
+    // }
+
+    // console.log(request_options)
+
+    // fetch(request_options)
+    //     .then(response => response.json())
+    //     .then(response => console.log(response))
+    
+    // fetch(request_options, function(error, response, body) {
+    //     if (error) {
+    //         console.log(error)
+    //         console.log(response)
+    //     } else {
+    //         console.log(body)
+    //     }
+    // })
+
     return ( 
         <div>
             <ul className="nav-container">
