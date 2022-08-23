@@ -4,6 +4,7 @@ import logo from "../Assets/logo.png";
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import ListingSearch from "./ListingSearch";
+import { Link } from "react-router-dom";
 
 const Buy = () => {
     const { isLoaded } = useLoadScript({
@@ -124,8 +125,11 @@ const Buy = () => {
             </li>
         </ul>
         <ListingSearch />
-        <div className="map-search-container">
-        <GoogleMap zoom={9} center={{lat: 41, lng: -74}} mapContainerClassName="map-container" ></GoogleMap>
+        <div className="lower-section-container">
+            <div className="map-search-container">
+                <h2>Search results will be displayed here in a future update utilizing data from <a href="https://datafiniti.co/" target="blank">Datafiniti's</a> Property Data API. Future plans in the <Link to="/about">About</Link> section.</h2>
+            <GoogleMap zoom={8} center={{lat: 41, lng: -74}} mapContainerClassName="map-container" ></GoogleMap>
+            </div>
         </div>
         </div>
      );
