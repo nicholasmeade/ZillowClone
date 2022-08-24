@@ -9,12 +9,12 @@ const About = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink active href="ZillowClone/homes">
+                <NavLink active to="/homes">
                     Buy
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink active href="ZillowClone/homes/for_rent">
+                <NavLink active to="/homes/for_rent">
                     Rent
                 </NavLink>
                 </NavItem>
@@ -38,7 +38,7 @@ const About = () => {
             <li>
             <Nav>
                 <NavItem>
-                <NavLink className="zillowlogo" href="/">
+                <NavLink className="zillowlogo" to="/">
                     <img src={logo} alt="Zillow Icon" width="180px" />
                 </NavLink>
                 </NavItem>
@@ -67,7 +67,7 @@ const About = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink exact href="ZillowClone/about">
+                <NavLink exact to="/about">
                     About
                 </NavLink>
                 </NavItem>

@@ -16,12 +16,12 @@ const Home = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink active href="ZillowClone/homes">
+                <NavLink active href="/ZillowClone/homes">
                     Buy
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink active href="ZillowClone/homes/for_rent">
+                <NavLink active href="/ZillowClone/homes/for_rent">
                     Rent
                 </NavLink>
                 </NavItem>
@@ -74,7 +74,7 @@ const Home = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="ZillowClone/about">
+                <NavLink href="/ZillowClone/about">
                     About
                 </NavLink>
                 </NavItem>
