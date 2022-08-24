@@ -1,6 +1,7 @@
 import "../App.css";
 import React from "react";
 import { Nav, NavItem, NavLink, Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
+import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import searchicon from "../Assets/searchicon.png";
 import buyhome from "../Assets/buyhome.webp";
@@ -16,12 +17,12 @@ const Home = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink active href="/ZillowClone/homes">
+                <NavLink as={Link} active href="/ZillowClone/homes">
                     Buy
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink active href="/ZillowClone/homes/for_rent">
+                <NavLink as={Link} active href="/ZillowClone/homes/for_rent">
                     Rent
                 </NavLink>
                 </NavItem>
@@ -45,7 +46,7 @@ const Home = () => {
             <li>
             <Nav>
                 <NavItem>
-                <NavLink className="zillowlogo" href="/">
+                <NavLink as={Link} className="zillowlogo" href="/">
                     <img src={logo} alt="Zillow Icon" width="180px" />
                 </NavLink>
                 </NavItem>
@@ -74,7 +75,7 @@ const Home = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="/ZillowClone/about">
+                <NavLink as={Link} href="/ZillowClone/about">
                     About
                 </NavLink>
                 </NavItem>
