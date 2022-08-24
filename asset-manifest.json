@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZillowClone/static/css/main.8997422a.css",
-    "main.js": "/ZillowClone/static/js/main.7414e4b2.js",
+    "main.js": "/ZillowClone/static/js/main.cd4b9a60.js",
     "static/js/787.c03d6dea.chunk.js": "/ZillowClone/static/js/787.c03d6dea.chunk.js",
     "static/media/smallhouse.jpeg": "/ZillowClone/static/media/smallhouse.750e730183f76c0bf39b.jpeg",
     "static/media/financehome.webp": "/ZillowClone/static/media/financehome.41e33beeae819254c7f4.webp",
@@ -10,11 +10,11 @@
     "static/media/footer-logo.svg": "/ZillowClone/static/media/footer-logo.3dc2e897450f51f87d253e045d72e4bf.svg",
     "index.html": "/ZillowClone/index.html",
     "main.8997422a.css.map": "/ZillowClone/static/css/main.8997422a.css.map",
-    "main.7414e4b2.js.map": "/ZillowClone/static/js/main.7414e4b2.js.map",
+    "main.cd4b9a60.js.map": "/ZillowClone/static/js/main.cd4b9a60.js.map",
     "787.c03d6dea.chunk.js.map": "/ZillowClone/static/js/787.c03d6dea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8997422a.css",
-    "static/js/main.7414e4b2.js"
+    "static/js/main.cd4b9a60.js"
   ]
 }
