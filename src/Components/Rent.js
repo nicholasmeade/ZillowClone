@@ -9,12 +9,12 @@ const Rent = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink active href="/#/homes">
+                <NavLink active href="/ZillowClone/#/homes">
                     Buy
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink active href="/#/homes/for_rent">
+                <NavLink active href="/ZillowClone/#/homes/for_rent">
                     Rent
                 </NavLink>
                 </NavItem>
@@ -38,7 +38,7 @@ const Rent = () => {
             <li>
             <Nav>
                 <NavItem>
-                <NavLink className="zillowlogo" href="/#/">
+                <NavLink className="zillowlogo" href="/ZillowClone/#/">
                     <img src={logo} alt="Zillow Icon" width="180px" />
                 </NavLink>
                 </NavItem>
@@ -67,7 +67,7 @@ const Rent = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink exact href="/#/about">
+                <NavLink exact href="/ZillowClone/#/about">
                     About
                 </NavLink>
                 </NavItem>

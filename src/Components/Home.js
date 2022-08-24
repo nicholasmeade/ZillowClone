@@ -17,12 +17,12 @@ const Home = () => {
             <li>
             <Nav className="me-2" fill justified>
                 <NavItem>
-                <NavLink as={Link} active href="/#/homes">
+                <NavLink as={Link} active href="/ZillowClone/#/homes">
                     Buy
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink as={Link} active href="/#/homes/for_rent">
+                <NavLink as={Link} active href="/ZillowClone/#/homes/for_rent">
                     Rent
                 </NavLink>
                 </NavItem>
@@ -46,7 +46,7 @@ const Home = () => {
             <li>
             <Nav>
                 <NavItem>
-                <NavLink as={Link} className="zillowlogo" href="/#/">
+                <NavLink as={Link} className="zillowlogo" href="/ZillowClone/#/">
                     <img src={logo} alt="Zillow Icon" width="180px" />
                 </NavLink>
                 </NavItem>
@@ -75,7 +75,7 @@ const Home = () => {
                 </NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink as={Link} href="/#/about">
+                <NavLink as={Link} href="/ZillowClone/#/about">
                     About
                 </NavLink>
                 </NavItem>
